@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             crazyButton = new Button();
             matchCounterLabel = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // crazyButton
@@ -40,6 +42,7 @@
             crazyButton.TabIndex = 0;
             crazyButton.Text = "Kezdjük!";
             crazyButton.UseVisualStyleBackColor = true;
+            crazyButton.Click += CrazyButton_Click;
             // 
             // matchCounterLabel
             // 
@@ -49,6 +52,11 @@
             matchCounterLabel.Size = new Size(56, 15);
             matchCounterLabel.TabIndex = 1;
             matchCounterLabel.Text = "Találatok:";
+            // 
+            // timer1
+            // 
+            timer1.Interval = 5000;
+            timer1.Tick += Timer1_Tick;
             // 
             // MainWindow
             // 
@@ -70,5 +78,6 @@
 
         private Button crazyButton;
         private Label matchCounterLabel;
+        private System.Windows.Forms.Timer timer1;
     }
 }
