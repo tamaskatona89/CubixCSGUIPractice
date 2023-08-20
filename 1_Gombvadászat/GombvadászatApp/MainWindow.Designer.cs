@@ -32,6 +32,7 @@
             crazyButton = new Button();
             matchCounterLabel = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
+            progressBar1 = new ProgressBar();
             SuspendLayout();
             // 
             // crazyButton
@@ -58,11 +59,22 @@
             timer1.Interval = 5000;
             timer1.Tick += Timer1_Tick;
             // 
+            // progressBar1
+            // 
+            progressBar1.Location = new Point(192, 537);
+            progressBar1.MarqueeAnimationSpeed = 30;
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(580, 23);
+            progressBar1.Step = 5;
+            progressBar1.Style = ProgressBarStyle.Marquee;
+            progressBar1.TabIndex = 2;
+            // 
             // MainWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 561);
+            Controls.Add(progressBar1);
             Controls.Add(matchCounterLabel);
             Controls.Add(crazyButton);
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -79,5 +91,6 @@
         private Button crazyButton;
         private Label matchCounterLabel;
         private System.Windows.Forms.Timer timer1;
+        private ProgressBar progressBar1;
     }
 }

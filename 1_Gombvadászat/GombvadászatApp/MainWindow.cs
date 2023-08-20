@@ -13,9 +13,12 @@ namespace GombvadászatApp
         private void CrazyButton_Click(object sender, EventArgs e)
         {
             if (!timer1.Enabled)
+            {
                 timer1.Enabled = true;
+                progressBar1.Style = ProgressBarStyle.Blocks;
+            }
 
-            HitCounter++;
+            HitCounter++; progressBar1.Value += 5;
 
             if (timer1.Interval >= 1000)
                 timer1.Interval -= 500;
@@ -48,6 +51,6 @@ namespace GombvadászatApp
             SetNewRandomPosition();
         }
 
-        
+
     }
 }
