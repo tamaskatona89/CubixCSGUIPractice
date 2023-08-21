@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VisszaszamlalasCORE": {
+      "commandName": "Project",
+      "commandLineArgs": "2023 8 15"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VisszaszamlalasNET": {
+      "commandName": "Project",
+      "commandLineArgs": "2023 8 15"
+    }
+  }
+}
