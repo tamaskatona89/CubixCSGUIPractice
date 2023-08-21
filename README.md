@@ -27,8 +27,8 @@ Cubix Institute of Technology - CSharp &amp; DotNet Basics Course - 10th Week - 
 ### Készítsünk weboldalt, látogatóink köszöntésére<br/>
 * Az oldal kérje be a látogató nevét egy egyszerű űrlap segítségével<br/>
 * A következő lapon köszöntsük a látogatót<br/>
-- 0-10 óra között „Jó reggelt”+ név<br/>
-- 10-17 óra között „Jó napot” + név<br/>
-- 17-24 óra között „Jó estét” + név<br/>
+	- 0-10 óra között „Jó reggelt”+ név<br/>
+	- 10-17 óra között „Jó napot” + név<br/>
+	- 17-24 óra között „Jó estét” + név<br/>
 * Az oldal a háttérben készítsen log-ot: txt file-ban tároljuk a látogató nevét <br/>
 és a látogatás pontos időpontját<br/>
