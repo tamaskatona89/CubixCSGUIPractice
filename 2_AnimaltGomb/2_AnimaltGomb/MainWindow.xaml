@@ -41,9 +41,9 @@
                                 <Storyboard>
                                     <ThicknessAnimationUsingKeyFrames
                                 Storyboard.TargetProperty="BorderThickness"
-                                Duration="0:0:2"
+                                Duration="0:0:1"
                                 FillBehavior="HoldEnd">
-                                        <LinearThicknessKeyFrame KeyTime="0:0:2" Value="10"/>
+                                        <LinearThicknessKeyFrame KeyTime="0:0:1" Value="10"/>
                                     </ThicknessAnimationUsingKeyFrames>
                                 </Storyboard>
                             </BeginStoryboard>
@@ -53,9 +53,9 @@
                                 <Storyboard>
                                     <ThicknessAnimationUsingKeyFrames
                                 Storyboard.TargetProperty="BorderThickness"
-                                Duration="0:0:2"
+                                Duration="0:0:1"
                                 FillBehavior="HoldEnd">
-                                        <LinearThicknessKeyFrame KeyTime="0:0:2" Value="1"/>
+                                        <LinearThicknessKeyFrame KeyTime="0:0:1" Value="1"/>
                                     </ThicknessAnimationUsingKeyFrames>
                                 </Storyboard>
                             </BeginStoryboard>
@@ -82,9 +82,9 @@
                                 <Storyboard>
                                     <ThicknessAnimationUsingKeyFrames
                                 Storyboard.TargetProperty="BorderThickness"
-                                Duration="0:0:2"
+                                Duration="0:0:1"
                                 FillBehavior="HoldEnd">
-                                        <LinearThicknessKeyFrame KeyTime="0:0:2" Value="10"/>
+                                        <LinearThicknessKeyFrame KeyTime="0:0:1" Value="10"/>
                                     </ThicknessAnimationUsingKeyFrames>
                                 </Storyboard>
                             </BeginStoryboard>
@@ -94,9 +94,9 @@
                                 <Storyboard>
                                     <ThicknessAnimationUsingKeyFrames
                                 Storyboard.TargetProperty="BorderThickness"
-                                Duration="0:0:2"
+                                Duration="0:0:1"
                                 FillBehavior="HoldEnd">
-                                        <LinearThicknessKeyFrame KeyTime="0:0:2" Value="1"/>
+                                        <LinearThicknessKeyFrame KeyTime="0:0:1" Value="1"/>
                                     </ThicknessAnimationUsingKeyFrames>
                                 </Storyboard>
                             </BeginStoryboard>
