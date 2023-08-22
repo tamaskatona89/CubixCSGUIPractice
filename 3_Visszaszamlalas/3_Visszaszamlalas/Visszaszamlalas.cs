@@ -1,24 +1,21 @@
 ﻿using System;
-
 namespace _3_Visszaszamlalas
 {
     public class Visszaszamlalas
     {
-        public DateTime dateToCompare { get; set; }
-        public DateTime dateNOW { get; } = DateTime.Now;
+        public DateTime DateToCompare { get; set; }
+        public DateTime DateNOW { get; } = DateTime.Now;
 
         public Visszaszamlalas(DateTime date)
         {
-            this.dateToCompare = date;
+            this.DateToCompare = date;
         }
 
         public string Mennyimeg()
         {
-            // V A K Á C I Ó = 7 chars
+            // V A K Á C I Ó ! = 8 chars
 
-
-
-            if (dateToCompare.Date >= dateNOW.Date)
+            if (DateToCompare.Date >= DateNOW.Date)
             {
                 //dateToCompare is after NOW
                 return "Vakáció!";
@@ -27,20 +24,17 @@ namespace _3_Visszaszamlalas
             {
                 //dateToCompare is before NOW
 
-                int businessDaysDiff = (int)GetBusinessDaysDifferenceBetweenTwoDates(dateToCompare, dateNOW);
+                int businessDaysDiff = (int)GetBusinessDaysDifferenceBetweenTwoDates(DateToCompare, DateNOW);
 
-                if (businessDaysDiff >=7)
+                if (businessDaysDiff >8)
                 {
                     return "Hol van az még!";
                 }
                 else
                 {
-                    return "Vakáció".Substring(businessDaysDiff) + "!";
+                    return "Vakáció!".Substring(businessDaysDiff-1);
                 }
-
-                
             }
-
         }
 
         public bool IsWeekend(DateTime date)

@@ -7,6 +7,10 @@ namespace VisszaszamlalasCORE
     {
         public static void Main(string[] args)
         {
+            if (args.Length != 3)
+            {
+                throw new ArgumentException("Csak 3 argumentummal működök! (ÉV HÓ NAP) (2023 8 22)");
+            }
             int year = Int32.Parse(args[0]);
             int month = Int32.Parse(args[1]);
             int day = Int32.Parse(args[2]);
